@@ -9,7 +9,7 @@ function PrintMe(item) {
 // coding.forEach(PrintMe)  // giving only the reference of the function
 
 coding.forEach( (item, index, arr) => console.log(item, index, arr) )
-
+ 
 const myCoding = [
     {
         languageName: "JavaScript",
