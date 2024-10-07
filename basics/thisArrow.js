@@ -13,9 +13,9 @@ const user = {
     }
 }
 
-// user.welcomeMessage()
+user.welcomeMessage()
 
-// returns and empty object
+// returns an empty object
 console.log(this);
 
 // printing this in a function returns many values such as global, Interval
