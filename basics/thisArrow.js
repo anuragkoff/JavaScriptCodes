@@ -27,7 +27,7 @@ console.log(this);
 //Implicit return
 //const addTwo = (a, b) => a+b;  // we can use paranthesis if used curly braces - have to use return
 
-const addTwo = (a,b) => ({username: "Anurag@123"})  // if we want to return an object, we have to use parenthesis
+const addTwo = (a,b) => ({username: "Anurag@123"})  // if we want to return an object, we have to use curly braces under parenthesis
 console.log(addTwo(2,9));
 
 //Explicit return is when you use return keyword
